@@ -10,4 +10,9 @@
 
 @interface DataManager : NSObject
 
+@property (nonatomic, readonly) NSArray *items;
+
++ (DataManager*)sharedData;
+
+
 @end

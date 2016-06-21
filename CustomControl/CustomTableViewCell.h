@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface CustomTableViewCell : NSObject
+@interface CustomTableViewCell : UITableViewCell
+
+@property (nonatomic) NSArray *items;
+
+- (id)initWithItems:(NSArray*)items;
 
 @end

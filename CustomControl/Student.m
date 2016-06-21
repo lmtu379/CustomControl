@@ -10,4 +10,10 @@
 
 @implementation Student
 
+- (instancetype)initWithName: (NSString*)name withAge: (NSString*)age{
+    self.name = name;
+    self.age= age;
+    
+    return self;
+}
 @end
