@@ -122,8 +122,8 @@
     Cell *cell =(Cell*) [collectionView dequeueReusableCellWithReuseIdentifier:CollectionViewCellIdentifier forIndexPath:indexPath];
     
     NSArray *collectionViewArray = self.colorArray[[(IndexedCollectionView *)collectionView indexPath].row];
-    cell.backgroundColor = collectionViewArray[indexPath.item];
-    cell.label.text = @"1";
+   // cell.backgroundColor = collectionViewArray[indexPath.item];
+    cell.label.text = @"123456";
     return cell;
 }
 
